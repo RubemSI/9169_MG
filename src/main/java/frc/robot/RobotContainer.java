@@ -25,6 +25,7 @@ import edu.wpi.first.wpilibj2.command.button.RobotModeTriggers;
 import edu.wpi.first.wpilibj2.command.button.Trigger;
 import edu.wpi.first.wpilibj2.command.sysid.SysIdRoutine.Direction;
 import frc.robot.commands.sequenciaPontua;
+import frc.robot.commands.Absolute0;
 import frc.robot.commands.ElevAngCMD;
 import frc.robot.commands.ElevadorCMD;
 import frc.robot.commands.Inclinacao;
@@ -194,7 +195,12 @@ public class RobotContainer {
                 elevSub, Constants.Elev_Tower3));
      
         
-
+        joystick.back().onTrue(
+            new Absolute0(
+                elevSub,
+                elevAngSub,
+                manipuloSub,
+                Mcoleta));
         
 
 

@@ -26,15 +26,15 @@ public class Constants
 
   public static final double Inc_Default = 0;
 
-  public static final double Inc_Tower1 = 55.6;
-  public static final double Inc_Tower2 = 49;
+  public static final double Inc_Tower1 = -42;
+  public static final double Inc_Tower2 = 15;
   public static final double Inc_Tower3 = 0;
 
   public static final double Inc_Intake = 33;//ok
 
   public static final double Inc_Mat1 = 0;//ok
   public static final double Inc_Mat2 = 20;//ok
-  public static final double Inc_Mat3 = 22;//ok
+  public static final double Inc_Mat3 = 16;//ok
 
 
 
